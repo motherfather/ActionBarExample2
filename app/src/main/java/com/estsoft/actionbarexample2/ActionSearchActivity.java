@@ -27,20 +27,6 @@ public class ActionSearchActivity extends AppCompatActivity {
                 setActionView( R.layout.collapsible_edittext ).
                 setShowAsAction( MenuItem.SHOW_AS_ACTION_ALWAYS | MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW );
 
-        MenuItem menuItem = menu.findItem(0);
-        final EditText searchText = (EditText) menuItem.getActionView();
-
-        searchText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
-            @Override
-            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
-                if( actionId == EditorInfo.IME_ACTION_SEARCH ) {
-                   Log.d( "------->", v.getText().toString() );
-                   v.setText( "" );
-                }
-                return false;
-            }
-        });
-
         return true;
     }
 
