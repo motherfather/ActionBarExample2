@@ -1,4 +1,4 @@
-package com.estsoft.actionbarexample2;
+package com.bit2016.actionbarexample2;
 
 import org.junit.Test;
 

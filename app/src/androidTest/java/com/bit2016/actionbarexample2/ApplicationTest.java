@@ -1,4 +1,4 @@
-package com.estsoft.actionbarexample2;
+package com.bit2016.actionbarexample2;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

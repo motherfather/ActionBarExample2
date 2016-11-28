@@ -1,10 +1,9 @@
-package com.estsoft.actionbarexample2;
+package com.bit2016.actionbarexample2;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 public class ActionItemsActivity extends AppCompatActivity {
 
